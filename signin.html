@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="signin.css">
+    <title>Document</title>
+</head>
+
+    <body>
+        <section>
+            <form id="#">
+                <h1>Sign In</h1>
+                <div class="inputbox">
+                    <ion-icon name="mail-outline"></ion-icon>
+                    <input type="email" id="email" name="email" required>
+                    <label for="email">Email</label>
+                </div>
+                <div class="inputbox">
+                    <ion-icon name="lock-closed-outline"></ion-icon>
+                    <input type="password" id="password" name="password" required>
+                    <label for="password">Password</label>
+                </div>
+                <button class="redirect-button" onclick="signin()"><u>Sign In</u></button>
+                <div class="register">
+                    <p>
+                        Don't have an Account?
+                    </p>
+                    <br>
+                    <button class="redirect-button" onclick="signup()"><u>Sign Up</u></button>
+                </div>
+            </form>
+        </section>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script>
+    function signin() {
+        window.location.href = 'user.html';
+    }
+    function signup() {
+        window.location.href = 'signup.html';
+    }
+</script>
+    </body>
+
+</html>

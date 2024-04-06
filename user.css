@@ -1,0 +1,127 @@
+body {
+    /* Background used: Background Fire w/ Blur */
+    background-image: url(https://scontent.fcrk1-1.fna.fbcdn.net/v/t1.15752-9/432838443_623316139979859_3004056916346022445_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHK2VEye9r_h1KxPCafjlC_xqFW3AXNWc_GoVbcBc1ZzwS44mOPbUddHTNt_D_G9DyULh2plKUMh_h8iS_0z9S6&_nc_ohc=SREpyVtqZrYAX80crUC&_nc_ht=scontent.fcrk1-1.fna&oh=03_AdTyrtELEHXFQ6o__wsfEwVvSDBCkXceDuVcIfTyCUBTHA&oe=662B7A79);
+    background-repeat: repeat;
+    background-size: 2000px;
+    background-position: center;
+    font-family: 'Lucida Sans';
+}
+
+.back-button {
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    background-color: rgba(255, 255, 255, 0.4);
+    justify-content: center;
+    align-items: center;
+    color: rgb(20, 20, 20);
+    font-size: 50px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    position:relative; 
+    left:50px; 
+    top:60px;
+    transition: background-color 0.3s; 
+}
+
+.back-button:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.back-button:active {
+    background-color:rgba(255, 255, 255, 0.6);;
+    box-shadow: 11 5px #ffffff;
+    color: rgb(20, 20, 20);
+    transform: translateY(4px);
+    }
+
+.headbuttons {
+    position:relative;
+}
+
+.headtitle-birthdaycard {
+    margin-left: auto;
+    margin-right: auto;
+    backdrop-filter: blur(10px);
+    width: 40%;
+    padding: 5%;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    border: 5px solid rgba(255, 255, 255, 0.4);
+    box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.8);
+    text-align: center;
+    position: relative;
+    top: -20px;
+}
+
+.container1 {
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+    backdrop-filter: blur(10px);
+    width: 70%;
+    padding: 5%;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.8);
+}
+
+.container2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding: 15%;
+    background-color: rgba(255, 255, 255, 0.150);
+    border-radius: 20px;
+}
+
+.container3 {
+    padding: 10%;
+}
+
+.container4 {
+    left: 10px;
+}
+
+.blurred-circle {
+    width: 100px;
+    position:relative; 
+    left:-30px; 
+    top:-20px;
+    height: 100px;
+    border: 10px solid #fff;
+    border-radius: 50%;
+    padding: 30px;
+}
+
+@media only screen and (max-width: 600px) and (min-width: 280px) {
+    .container1 {
+        width: 89%;
+    }
+    img {
+        width: 30%;
+        height: auto;
+    }
+    .container1 {
+        text-indent: 0px;
+    }
+
+    .back-button {
+        width: 60px;
+        height: 60px;
+        left:0px; 
+        top:45px;
+        font-size: 35px;
+    }
+
+    .headtitle-birthdaycard {
+        top: 0px;
+    }
+
+    .blurred-circle {
+        width: 50px;
+        height: 50px;
+        border: 10px solid #fff;
+    }
+}

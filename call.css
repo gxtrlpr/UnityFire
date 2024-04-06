@@ -1,0 +1,88 @@
+.body {
+  background-image: url("bgfire.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.header {
+  color:
+  padding 20px
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+}
+
+.chat-window {
+  width: 500px;
+  background-color:#778899;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.chat-area {
+  height: 400px;
+  overflow-y: scroll;
+  padding: 25px;
+}
+
+.chat-messages {
+  display: flex;
+  flex-direction: column;
+}
+
+.message {
+  margin-bottom: 10px;
+  background-color:#FFFAFA;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.user-input {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  background-color:#FFFAFA;
+}
+
+#message-input {
+  flex-grow: 2;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 25Spx;
+}
+
+#send-button {
+  padding: 10px 16px;
+  margin-left: 10px;
+  background-color: #00FFFF;
+  border: none;
+  border-radius: 0px;
+  color: #fff;
+  cursor: pointer;
+}
+
+#send-button:hover {
+  background-color: #0056b3;
+  
+}
+
+.call-button {
+    display: inline-block;
+    background-color: transparent;
+    color: #ffffff;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin-left: 89%;
+    text-decoration: none;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.call-button:hover {
+    background-color: #000000;
+}
