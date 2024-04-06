@@ -21,6 +21,6 @@ function sendMessage() {
   });
 
   function redirectToPage() {
-    var videoId = 'Sj7iuIxeVbA';
+    var videoId = 'dQw4w9WgXcQ';
         window.location.href = 'https://www.youtube.com/embed/' + videoId + '?autoplay=1&fs=1';
 }
